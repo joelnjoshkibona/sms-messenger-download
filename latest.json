@@ -1,25 +1,17 @@
 {
   "app": "com.blutrixx.smsmessengerapp",
-  "versionCode": 8,
-  "versionName": "0.1.8",
+  "versionCode": 9,
+  "versionName": "0.1.9",
   "minimumCode": 1,
-  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.1.8/sms-messenger-0.1.8.apk",
-  "sha256": "5e7240c800401ad2d524d17d6ded6c322efc02b7f5ffd2c8e77c0c705b2f0e22",
-  "size": 38438530,
+  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.1.9/sms-messenger-0.1.9.apk",
+  "sha256": "03bd26272dd4b148a5e6a72dea5534f346c5e6b4f8f95e8049f1891269b45b17",
+  "size": 38440082,
   "date": "2026-11-14",
-  "notes": "First release of SMS Messenger.",
+  "notes": "Restarts and received texts now show in the exported log.",
   "changes": [
     {
-      "type": "NEW",
-      "text": "Texts on your phone, kept on your phone."
-    },
-    {
-      "type": "NEW",
-      "text": "Updates itself from this page."
-    },
-    {
-      "type": "NEW",
-      "text": "Background health shows what keeps texts arriving, including Auto-start on Infinix, Tecno and itel."
+      "type": "FIXED",
+      "text": "The exported log now includes each restart and the texts received while the app was closed, without opening SMS check."
     }
   ]
 }
