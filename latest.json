@@ -1,21 +1,17 @@
 {
   "app": "com.blutrixx.smsmessengerapp",
-  "versionCode": 11,
-  "versionName": "0.1.11",
+  "versionCode": 12,
+  "versionName": "0.1.12",
   "minimumCode": 1,
-  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.1.11/sms-messenger-0.1.11.apk",
-  "sha256": "517d7b72756f20b606846845672f3a11002d135fb755f338113bd8a801b8aab5",
-  "size": 38443698,
+  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.1.12/sms-messenger-0.1.12.apk",
+  "sha256": "f02c83883ffd3fedd4ec6cae6313b3202392bff83ceffa1771110a1f59347629",
+  "size": 38443678,
   "date": "2026-11-14",
-  "notes": "Warns you if an update makes another app your SMS app.",
+  "notes": "A test release to try updating inside the app; nothing changes for you.",
   "changes": [
     {
-      "type": "NEW",
-      "text": "If an update leaves SMS Messenger no longer your SMS app, a notification says so and leads to the fix."
-    },
-    {
       "type": "FIXED",
-      "text": "Auto-start stays allowed after an update instead of asking again."
+      "text": "The 0.1.11 note blamed updates; an SMS app is only replaced when you switch to another one yourself."
     }
   ]
 }
