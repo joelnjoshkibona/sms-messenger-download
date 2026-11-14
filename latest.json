@@ -1,33 +1,41 @@
 {
   "app": "com.blutrixx.smsmessengerapp",
-  "versionCode": 15,
-  "versionName": "0.1.15",
+  "versionCode": 16,
+  "versionName": "0.1.16",
   "minimumCode": 1,
-  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.1.15/sms-messenger-0.1.15.apk",
-  "sha256": "33bc658ab1c218aa059ba5a732b65f0b5c285b18bf0c83be61bb0495331d693a",
-  "size": 38979861,
+  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.1.16/sms-messenger-0.1.16.apk",
+  "sha256": "add1c671ea8e56fa0c9f29078d298f9f4505d6eee0bf3927b60b70ed3b3e1543",
+  "size": 39068997,
   "date": "2026-11-14",
-  "notes": "Read and send your texts in SMS Messenger.",
+  "notes": "Block senders, report spam, and keep texts private behind a passphrase.",
   "changes": [
     {
       "type": "NEW",
-      "text": "Your conversations, with names from your contacts. Swipe to archive; press and hold to pin, mute or delete."
+      "text": "Block a sender. Their texts are sealed away, with no notification. You can also block by prefix, pattern or word."
     },
     {
       "type": "NEW",
-      "text": "Write and send texts, with the SMS parts counted and a SIM choice on two-SIM phones."
+      "text": "Hide messages or whole conversations, and keep a number private: its texts then arrive only in your private space, with a plain \"New message\" alert."
     },
     {
       "type": "NEW",
-      "text": "Reply or mark as read straight from a notification."
+      "text": "Report spam. The conversation moves to Spam, stays silent, and is deleted 30 days after its last text. Not spam puts it back."
     },
     {
       "type": "NEW",
-      "text": "Search the words of your messages."
+      "text": "Send as new: send a message's words again as a new text."
+    },
+    {
+      "type": "NEW",
+      "text": "Tap a message to see when it was sent and delivered, and on which SIM."
+    },
+    {
+      "type": "NEW",
+      "text": "On two-SIM phones, choose the SIM for texts in Settings, or be asked each time."
     },
     {
       "type": "FIXED",
-      "text": "A first import is logged as started, not resumed."
+      "text": "Pressing and holding a message now keeps it selected."
     }
   ]
 }
