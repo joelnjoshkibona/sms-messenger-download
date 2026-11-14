@@ -1,17 +1,21 @@
 {
   "app": "com.blutrixx.smsmessengerapp",
-  "versionCode": 22,
-  "versionName": "0.2.2",
+  "versionCode": 23,
+  "versionName": "0.2.3",
   "minimumCode": 1,
-  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.2.2/sms-messenger-0.2.2.apk",
-  "sha256": "557077bf8839d41edb783eb7bdc8dfff3bd95a4a0f7393fa6ab732aca75e9eed",
-  "size": 39092453,
+  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.2.3/sms-messenger-0.2.3.apk",
+  "sha256": "241003c6e417db0460bd0cd0e7f167faabf95555b136109592e2625240477210",
+  "size": 39094773,
   "date": "2026-11-14",
-  "notes": "Help for phones that hold back the SMS role.",
+  "notes": "A cleaner app icon.",
   "changes": [
     {
-      "type": "IMPROVED",
-      "text": "If Android refuses to make it your SMS app because it was installed from a file (Samsung and other Android 13+ phones), the app now says how to allow it and opens App info for you."
+      "type": "FIXED",
+      "text": "The app icon showed a DEV badge."
+    },
+    {
+      "type": "FIXED",
+      "text": "Not sent under a message is shown in red again."
     }
   ]
 }
