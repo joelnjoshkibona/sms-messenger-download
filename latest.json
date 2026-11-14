@@ -1,17 +1,21 @@
 {
   "app": "com.blutrixx.smsmessengerapp",
-  "versionCode": 12,
-  "versionName": "0.1.12",
+  "versionCode": 13,
+  "versionName": "0.1.13",
   "minimumCode": 1,
-  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.1.12/sms-messenger-0.1.12.apk",
-  "sha256": "f02c83883ffd3fedd4ec6cae6313b3202392bff83ceffa1771110a1f59347629",
-  "size": 38443678,
+  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.1.13/sms-messenger-0.1.13.apk",
+  "sha256": "fcdb41e795fd2c54d485e6bdd3c71cf554c26996c66b742ef5725656e1be176c",
+  "size": 38898697,
   "date": "2026-11-14",
-  "notes": "A test release to try updating inside the app; nothing changes for you.",
+  "notes": "SMS Messenger now keeps its own copy of your messages.",
   "changes": [
     {
-      "type": "FIXED",
-      "text": "The 0.1.11 note blamed updates; an SMS app is only replaced when you switch to another one yourself."
+      "type": "NEW",
+      "text": "On first open after the update, your existing texts are copied into the app, newest first. It carries on if the app is closed."
+    },
+    {
+      "type": "IMPROVED",
+      "text": "A long text sent in several parts now has one status: sent, then delivered, or failed."
     }
   ]
 }
