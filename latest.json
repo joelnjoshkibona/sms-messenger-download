@@ -1,25 +1,25 @@
 {
   "app": "com.blutrixx.smsmessengerapp",
-  "versionCode": 20,
-  "versionName": "0.2.0",
+  "versionCode": 21,
+  "versionName": "0.2.1",
   "minimumCode": 1,
-  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.2.0/sms-messenger-0.2.0.apk",
-  "sha256": "b3d54945e68cb61ca0fda6d67a05412e3aa391a6cccc79a3f4a71a8a5a5c7095",
-  "size": 39090461,
+  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.2.1/sms-messenger-0.2.1.apk",
+  "sha256": "50c3bf44d67abaabe56daf2ad3ecc2c1847065f4cf77940db72784349adb778d",
+  "size": 39090893,
   "date": "2026-11-14",
-  "notes": "Back up your private space and take your texts with you.",
+  "notes": "A call button in conversations, and typing fixed on more phones.",
   "changes": [
     {
       "type": "NEW",
-      "text": "Save a backup file of your private space, its rules and your settings. Only your passphrase or recovery key opens it."
+      "text": "Call from a conversation: the button opens your dialer with the number."
     },
     {
-      "type": "NEW",
-      "text": "Export your texts as a readable file to keep or move to another app. Private texts are never in it."
+      "type": "IMPROVED",
+      "text": "A conversation's header shows Call and the menu instead of your profile."
     },
     {
-      "type": "NEW",
-      "text": "Restore from a backup file, also offered when you set the app up again after reinstalling."
+      "type": "FIXED",
+      "text": "On some phones (such as Samsung on Android 16) the text box floated far above the keyboard and the header scrolled away."
     }
   ]
 }
