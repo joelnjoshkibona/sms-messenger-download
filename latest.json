@@ -1,17 +1,17 @@
 {
   "app": "com.blutrixx.smsmessengerapp",
-  "versionCode": 17,
-  "versionName": "0.1.17",
+  "versionCode": 18,
+  "versionName": "0.1.18",
   "minimumCode": 1,
-  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.1.17/sms-messenger-0.1.17.apk",
-  "sha256": "b02cc3477b9d5e94b79eb4dbb7539b7093a41cabecdcbce848ff85885b437fc2",
-  "size": 39071701,
+  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.1.18/sms-messenger-0.1.18.apk",
+  "sha256": "ceed7c7ae219398215e37d6a19e4e9067c07d892c8a302dc2bd4519c2498cd7f",
+  "size": 39071689,
   "date": "2026-11-14",
-  "notes": "Spam and Archive now open properly.",
+  "notes": "The menu marks the right page.",
   "changes": [
     {
       "type": "FIXED",
-      "text": "Spam and Archive show their own conversations, not the Inbox's."
+      "text": "The menu marks only the page you are on."
     }
   ]
 }
