@@ -1,0 +1,25 @@
+{
+  "app": "com.blutrixx.smsmessengerapp",
+  "versionCode": 8,
+  "versionName": "0.1.8",
+  "minimumCode": 1,
+  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.1.8/sms-messenger-0.1.8.apk",
+  "sha256": "5e7240c800401ad2d524d17d6ded6c322efc02b7f5ffd2c8e77c0c705b2f0e22",
+  "size": 38438530,
+  "date": "2026-11-14",
+  "notes": "First release of SMS Messenger.",
+  "changes": [
+    {
+      "type": "NEW",
+      "text": "Texts on your phone, kept on your phone."
+    },
+    {
+      "type": "NEW",
+      "text": "Updates itself from this page."
+    },
+    {
+      "type": "NEW",
+      "text": "Background health shows what keeps texts arriving, including Auto-start on Infinix, Tecno and itel."
+    }
+  ]
+}
