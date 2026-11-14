@@ -1,21 +1,17 @@
 {
   "app": "com.blutrixx.smsmessengerapp",
-  "versionCode": 23,
-  "versionName": "0.2.3",
+  "versionCode": 24,
+  "versionName": "0.2.4",
   "minimumCode": 1,
-  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.2.3/sms-messenger-0.2.3.apk",
-  "sha256": "241003c6e417db0460bd0cd0e7f167faabf95555b136109592e2625240477210",
-  "size": 39094773,
+  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.2.4/sms-messenger-0.2.4.apk",
+  "sha256": "3af8797d26f4b795a129fb6b158ea529147fdc6175327b1c9b9b035205a2ffde",
+  "size": 39095713,
   "date": "2026-11-14",
-  "notes": "A cleaner app icon.",
+  "notes": "Typing fixed on Android 15 and 16.",
   "changes": [
     {
       "type": "FIXED",
-      "text": "The app icon showed a DEV badge."
-    },
-    {
-      "type": "FIXED",
-      "text": "Not sent under a message is shown in red again."
+      "text": "On Android 15 and 16 (such as Samsung) the text box floated above the keyboard and the conversation's header scrolled away."
     }
   ]
 }
