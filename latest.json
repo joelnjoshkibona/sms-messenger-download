@@ -1,21 +1,17 @@
 {
   "app": "com.blutrixx.smsmessengerapp",
-  "versionCode": 13,
-  "versionName": "0.1.13",
+  "versionCode": 14,
+  "versionName": "0.1.14",
   "minimumCode": 1,
-  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.1.13/sms-messenger-0.1.13.apk",
-  "sha256": "fcdb41e795fd2c54d485e6bdd3c71cf554c26996c66b742ef5725656e1be176c",
-  "size": 38898697,
+  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.1.14/sms-messenger-0.1.14.apk",
+  "sha256": "092784555925f89cfc2eb2f71e2012aee052f72db62722bb790a9a76d06e9dff",
+  "size": 38899381,
   "date": "2026-11-14",
-  "notes": "SMS Messenger now keeps its own copy of your messages.",
+  "notes": "The app log now updates by itself while it is open.",
   "changes": [
     {
-      "type": "NEW",
-      "text": "On first open after the update, your existing texts are copied into the app, newest first. It carries on if the app is closed."
-    },
-    {
       "type": "IMPROVED",
-      "text": "A long text sent in several parts now has one status: sent, then delivered, or failed."
+      "text": "Texts received or sent while you look at the app log appear in it within a few seconds, without closing it."
     }
   ]
 }
