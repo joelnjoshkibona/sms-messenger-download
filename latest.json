@@ -1,25 +1,17 @@
 {
   "app": "com.blutrixx.smsmessengerapp",
-  "versionCode": 21,
-  "versionName": "0.2.1",
+  "versionCode": 22,
+  "versionName": "0.2.2",
   "minimumCode": 1,
-  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.2.1/sms-messenger-0.2.1.apk",
-  "sha256": "50c3bf44d67abaabe56daf2ad3ecc2c1847065f4cf77940db72784349adb778d",
-  "size": 39090893,
+  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.2.2/sms-messenger-0.2.2.apk",
+  "sha256": "557077bf8839d41edb783eb7bdc8dfff3bd95a4a0f7393fa6ab732aca75e9eed",
+  "size": 39092453,
   "date": "2026-11-14",
-  "notes": "A call button in conversations, and typing fixed on more phones.",
+  "notes": "Help for phones that hold back the SMS role.",
   "changes": [
     {
-      "type": "NEW",
-      "text": "Call from a conversation: the button opens your dialer with the number."
-    },
-    {
       "type": "IMPROVED",
-      "text": "A conversation's header shows Call and the menu instead of your profile."
-    },
-    {
-      "type": "FIXED",
-      "text": "On some phones (such as Samsung on Android 16) the text box floated far above the keyboard and the header scrolled away."
+      "text": "If Android refuses to make it your SMS app because it was installed from a file (Samsung and other Android 13+ phones), the app now says how to allow it and opens App info for you."
     }
   ]
 }
