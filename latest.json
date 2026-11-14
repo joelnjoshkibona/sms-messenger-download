@@ -1,17 +1,25 @@
 {
   "app": "com.blutrixx.smsmessengerapp",
-  "versionCode": 19,
-  "versionName": "0.1.19",
+  "versionCode": 20,
+  "versionName": "0.2.0",
   "minimumCode": 1,
-  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.1.19/sms-messenger-0.1.19.apk",
-  "sha256": "f975660d681fae7a3f01909d088f05f3b246e11206f196df6533326e48238382",
-  "size": 39071809,
+  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.2.0/sms-messenger-0.2.0.apk",
+  "sha256": "b3d54945e68cb61ca0fda6d67a05412e3aa391a6cccc79a3f4a71a8a5a5c7095",
+  "size": 39090461,
   "date": "2026-11-14",
-  "notes": "Opening the app is quieter.",
+  "notes": "Back up your private space and take your texts with you.",
   "changes": [
     {
-      "type": "FIXED",
-      "text": "\"Copying your texts\" no longer shows each time you open the app."
+      "type": "NEW",
+      "text": "Save a backup file of your private space, its rules and your settings. Only your passphrase or recovery key opens it."
+    },
+    {
+      "type": "NEW",
+      "text": "Export your texts as a readable file to keep or move to another app. Private texts are never in it."
+    },
+    {
+      "type": "NEW",
+      "text": "Restore from a backup file, also offered when you set the app up again after reinstalling."
     }
   ]
 }
