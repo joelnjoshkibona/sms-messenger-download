@@ -1,17 +1,17 @@
 {
   "app": "com.blutrixx.smsmessengerapp",
-  "versionCode": 18,
-  "versionName": "0.1.18",
+  "versionCode": 19,
+  "versionName": "0.1.19",
   "minimumCode": 1,
-  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.1.18/sms-messenger-0.1.18.apk",
-  "sha256": "ceed7c7ae219398215e37d6a19e4e9067c07d892c8a302dc2bd4519c2498cd7f",
-  "size": 39071689,
+  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.1.19/sms-messenger-0.1.19.apk",
+  "sha256": "f975660d681fae7a3f01909d088f05f3b246e11206f196df6533326e48238382",
+  "size": 39071809,
   "date": "2026-11-14",
-  "notes": "The menu marks the right page.",
+  "notes": "Opening the app is quieter.",
   "changes": [
     {
       "type": "FIXED",
-      "text": "The menu marks only the page you are on."
+      "text": "\"Copying your texts\" no longer shows each time you open the app."
     }
   ]
 }
