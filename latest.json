@@ -1,17 +1,33 @@
 {
   "app": "com.blutrixx.smsmessengerapp",
-  "versionCode": 14,
-  "versionName": "0.1.14",
+  "versionCode": 15,
+  "versionName": "0.1.15",
   "minimumCode": 1,
-  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.1.14/sms-messenger-0.1.14.apk",
-  "sha256": "092784555925f89cfc2eb2f71e2012aee052f72db62722bb790a9a76d06e9dff",
-  "size": 38899381,
+  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.1.15/sms-messenger-0.1.15.apk",
+  "sha256": "33bc658ab1c218aa059ba5a732b65f0b5c285b18bf0c83be61bb0495331d693a",
+  "size": 38979861,
   "date": "2026-11-14",
-  "notes": "The app log now updates by itself while it is open.",
+  "notes": "Read and send your texts in SMS Messenger.",
   "changes": [
     {
-      "type": "IMPROVED",
-      "text": "Texts received or sent while you look at the app log appear in it within a few seconds, without closing it."
+      "type": "NEW",
+      "text": "Your conversations, with names from your contacts. Swipe to archive; press and hold to pin, mute or delete."
+    },
+    {
+      "type": "NEW",
+      "text": "Write and send texts, with the SMS parts counted and a SIM choice on two-SIM phones."
+    },
+    {
+      "type": "NEW",
+      "text": "Reply or mark as read straight from a notification."
+    },
+    {
+      "type": "NEW",
+      "text": "Search the words of your messages."
+    },
+    {
+      "type": "FIXED",
+      "text": "A first import is logged as started, not resumed."
     }
   ]
 }
