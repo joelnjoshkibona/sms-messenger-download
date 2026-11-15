@@ -1,25 +1,25 @@
 {
   "app": "com.blutrixx.smsmessengerapp",
-  "versionCode": 26,
-  "versionName": "0.2.6",
+  "versionCode": 27,
+  "versionName": "0.2.7",
   "minimumCode": 1,
-  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.2.6/sms-messenger-0.2.6.apk",
-  "sha256": "25fa0720cd9a01ff472aec14c83257dfd409e163e510528b2726254f4c8a3d65",
-  "size": 39161229,
+  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.2.7/sms-messenger-0.2.7.apk",
+  "sha256": "30f09897a0a0a941d3f946739ad0e2702bb6dd8277247c8dbcf3b54db7f322da",
+  "size": 39162805,
   "date": "2026-11-15",
-  "notes": "Read your texts on a computer: Linked browsers",
+  "notes": "Send texts from your computer",
   "changes": [
     {
       "type": "NEW",
-      "text": "Settings \u203a Linked browsers: pair a computer's browser by scanning its QR code, or by typing its short code and checking six matching digits"
+      "text": "A paired browser sends and replies through your phone, with Sending, Sent and Delivered as on the phone"
     },
     {
       "type": "NEW",
-      "text": "A paired browser shows your conversations, encrypted from end to end; the vault never leaves the phone"
+      "text": "Start a chat to any number from the browser"
     },
     {
-      "type": "NEW",
-      "text": "New texts reach the paired browser within seconds; remove a browser any time from Linked browsers"
+      "type": "IMPROVED",
+      "text": "Opening a conversation in the browser marks it read on the phone"
     }
   ]
 }
