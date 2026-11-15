@@ -1,29 +1,25 @@
 {
   "app": "com.blutrixx.smsmessengerapp",
-  "versionCode": 25,
-  "versionName": "0.2.5",
+  "versionCode": 26,
+  "versionName": "0.2.6",
   "minimumCode": 1,
-  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.2.5/sms-messenger-0.2.5.apk",
-  "sha256": "66ac193f5155f01b2a78d6da0227cee4c53412f76c85b8524beecec30e4560d7",
-  "size": 39098513,
+  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.2.6/sms-messenger-0.2.6.apk",
+  "sha256": "25fa0720cd9a01ff472aec14c83257dfd409e163e510528b2726254f4c8a3d65",
+  "size": 39161229,
   "date": "2026-11-15",
-  "notes": "Inbox filters, and a fix for opening texts from other apps",
+  "notes": "Read your texts on a computer: Linked browsers",
   "changes": [
     {
-      "type": "FIXED",
-      "text": "Opening a text from another app (a contact's Message button, a link) or tapping a message notification no longer closes SMS Messenger"
+      "type": "NEW",
+      "text": "Settings \u203a Linked browsers: pair a computer's browser by scanning its QR code, or by typing its short code and checking six matching digits"
     },
     {
       "type": "NEW",
-      "text": "Inbox filters: All, Unread and Drafts"
+      "text": "A paired browser shows your conversations, encrypted from end to end; the vault never leaves the phone"
     },
     {
       "type": "NEW",
-      "text": "A conversation with a reply you started and left shows Draft: in the list"
-    },
-    {
-      "type": "IMPROVED",
-      "text": "The conversation list loads more by itself as you scroll"
+      "text": "New texts reach the paired browser within seconds; remove a browser any time from Linked browsers"
     }
   ]
 }
