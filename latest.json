@@ -1,25 +1,21 @@
 {
   "app": "com.blutrixx.smsmessengerapp",
-  "versionCode": 27,
-  "versionName": "0.2.7",
+  "versionCode": 28,
+  "versionName": "0.2.8",
   "minimumCode": 1,
-  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.2.7/sms-messenger-0.2.7.apk",
-  "sha256": "30f09897a0a0a941d3f946739ad0e2702bb6dd8277247c8dbcf3b54db7f322da",
-  "size": 39162805,
+  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.2.8/sms-messenger-0.2.8.apk",
+  "sha256": "9cdd0d8e8c4c5f9635340f455bc717568975caf37358fe7b1fd8caf508c31f54",
+  "size": 39164089,
   "date": "2026-11-15",
-  "notes": "Send texts from your computer",
+  "notes": "Pair a browser by scanning its QR code",
   "changes": [
     {
-      "type": "NEW",
-      "text": "A paired browser sends and replies through your phone, with Sending, Sent and Delivered as on the phone"
-    },
-    {
-      "type": "NEW",
-      "text": "Start a chat to any number from the browser"
+      "type": "FIXED",
+      "text": "Pair a browser now opens the camera and scans the computer's QR code (it did nothing before)"
     },
     {
       "type": "IMPROVED",
-      "text": "Opening a conversation in the browser marks it read on the phone"
+      "text": "Clear messages when the camera is not allowed or in use, with Type a code instead as the way round"
     }
   ]
 }
