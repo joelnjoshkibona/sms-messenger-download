@@ -1,17 +1,29 @@
 {
   "app": "com.blutrixx.smsmessengerapp",
-  "versionCode": 24,
-  "versionName": "0.2.4",
+  "versionCode": 25,
+  "versionName": "0.2.5",
   "minimumCode": 1,
-  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.2.4/sms-messenger-0.2.4.apk",
-  "sha256": "3af8797d26f4b795a129fb6b158ea529147fdc6175327b1c9b9b035205a2ffde",
-  "size": 39095713,
-  "date": "2026-11-14",
-  "notes": "Typing fixed on Android 15 and 16.",
+  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.2.5/sms-messenger-0.2.5.apk",
+  "sha256": "66ac193f5155f01b2a78d6da0227cee4c53412f76c85b8524beecec30e4560d7",
+  "size": 39098513,
+  "date": "2026-11-15",
+  "notes": "Inbox filters, and a fix for opening texts from other apps",
   "changes": [
     {
       "type": "FIXED",
-      "text": "On Android 15 and 16 (such as Samsung) the text box floated above the keyboard and the conversation's header scrolled away."
+      "text": "Opening a text from another app (a contact's Message button, a link) or tapping a message notification no longer closes SMS Messenger"
+    },
+    {
+      "type": "NEW",
+      "text": "Inbox filters: All, Unread and Drafts"
+    },
+    {
+      "type": "NEW",
+      "text": "A conversation with a reply you started and left shows Draft: in the list"
+    },
+    {
+      "type": "IMPROVED",
+      "text": "The conversation list loads more by itself as you scroll"
     }
   ]
 }
