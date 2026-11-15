@@ -1,21 +1,41 @@
 {
   "app": "com.blutrixx.smsmessengerapp",
-  "versionCode": 28,
-  "versionName": "0.2.8",
+  "versionCode": 41,
+  "versionName": "0.3.0",
   "minimumCode": 1,
-  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.2.8/sms-messenger-0.2.8.apk",
-  "sha256": "9cdd0d8e8c4c5f9635340f455bc717568975caf37358fe7b1fd8caf508c31f54",
-  "size": 39164089,
+  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.3.0/sms-messenger-0.3.0.apk",
+  "sha256": "cbd150821b1eb15d52928264ba793165cdeabfb2ba74a6e03d05a6ff8d90c4f2",
+  "size": 37602081,
   "date": "2026-11-15",
-  "notes": "Pair a browser by scanning its QR code",
+  "notes": "A new foundation under the app and its web side. Your texts, vault, drafts and settings stay.",
   "changes": [
     {
-      "type": "FIXED",
-      "text": "Pair a browser now opens the camera and scans the computer's QR code (it did nothing before)"
+      "type": "IMPROVED",
+      "text": "The app and its web side now share one base, so fixes reach both. Your texts, vault, drafts, filters and settings are kept."
     },
     {
-      "type": "IMPROVED",
-      "text": "Clear messages when the camera is not allowed or in use, with Type a code instead as the way round"
+      "type": "ISSUE",
+      "text": "Choose your theme, accent colour and language again, once."
+    },
+    {
+      "type": "ISSUE",
+      "text": "Pair your browser again: Settings \u203a Linked browsers \u203a Pair a browser."
+    },
+    {
+      "type": "ISSUE",
+      "text": "On phones that ask for auto-start (Infinix, Tecno, itel), confirm it again when the app asks."
+    },
+    {
+      "type": "FIXED",
+      "text": "After an update, What changed shows only the notes of the version now running."
+    },
+    {
+      "type": "FIXED",
+      "text": "The Messages heading in the menu had no words."
+    },
+    {
+      "type": "FIXED",
+      "text": "The SIM icon was blank."
     }
   ]
 }
