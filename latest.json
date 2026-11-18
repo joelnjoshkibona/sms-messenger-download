@@ -1,41 +1,25 @@
 {
   "app": "com.blutrixx.smsmessengerapp",
-  "versionCode": 41,
-  "versionName": "0.3.0",
+  "versionCode": 43,
+  "versionName": "0.3.1",
   "minimumCode": 1,
-  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.3.0/sms-messenger-0.3.0.apk",
-  "sha256": "cbd150821b1eb15d52928264ba793165cdeabfb2ba74a6e03d05a6ff8d90c4f2",
-  "size": 37602081,
-  "date": "2026-11-15",
-  "notes": "A new foundation under the app and its web side. Your texts, vault, drafts and settings stay.",
+  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.3.1/sms-messenger-0.3.1.apk",
+  "sha256": "e1ae93efc862c78f999c827dcb71877369bb8cfd1256b5636579158c18d1aafa",
+  "size": 37603893,
+  "date": "2026-11-18",
+  "notes": "Fixes freezes and Back after opening a text from a notification.",
   "changes": [
     {
-      "type": "IMPROVED",
-      "text": "The app and its web side now share one base, so fixes reach both. Your texts, vault, drafts, filters and settings are kept."
-    },
-    {
-      "type": "ISSUE",
-      "text": "Choose your theme, accent colour and language again, once."
-    },
-    {
-      "type": "ISSUE",
-      "text": "Pair your browser again: Settings \u203a Linked browsers \u203a Pair a browser."
-    },
-    {
-      "type": "ISSUE",
-      "text": "On phones that ask for auto-start (Infinix, Tecno, itel), confirm it again when the app asks."
+      "type": "FIXED",
+      "text": "Opening a conversation from a notification could freeze the app or leave conversations not responding to taps."
     },
     {
       "type": "FIXED",
-      "text": "After an update, What changed shows only the notes of the version now running."
+      "text": "Back from a conversation opened by a notification now goes to the Inbox instead of closing the app."
     },
     {
       "type": "FIXED",
-      "text": "The Messages heading in the menu had no words."
-    },
-    {
-      "type": "FIXED",
-      "text": "The SIM icon was blank."
+      "text": "The app could stay on its loading screen when opened again after leaving it with Back."
     }
   ]
 }
