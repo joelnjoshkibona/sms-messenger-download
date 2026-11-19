@@ -1,25 +1,21 @@
 {
   "app": "com.blutrixx.smsmessengerapp",
-  "versionCode": 43,
-  "versionName": "0.3.1",
+  "versionCode": 47,
+  "versionName": "0.3.2",
   "minimumCode": 1,
-  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.3.1/sms-messenger-0.3.1.apk",
-  "sha256": "e1ae93efc862c78f999c827dcb71877369bb8cfd1256b5636579158c18d1aafa",
-  "size": 37603893,
-  "date": "2026-11-18",
-  "notes": "Fixes freezes and Back after opening a text from a notification.",
+  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.3.2/sms-messenger-0.3.2.apk",
+  "sha256": "075baaa2ee7cf4bfb48267c1bbe942f648d68cb5186290f55a4424125e44f486",
+  "size": 37638081,
+  "date": "2026-11-19",
+  "notes": "Notification taps open the right conversation, and search finds names and numbers.",
   "changes": [
     {
       "type": "FIXED",
-      "text": "Opening a conversation from a notification could freeze the app or leave conversations not responding to taps."
+      "text": "Tapping a message notification opens that conversation, also after the app was closed."
     },
     {
-      "type": "FIXED",
-      "text": "Back from a conversation opened by a notification now goes to the Inbox instead of closing the app."
-    },
-    {
-      "type": "FIXED",
-      "text": "The app could stay on its loading screen when opened again after leaving it with Back."
+      "type": "NEW",
+      "text": "Search finds conversations by contact name or number as you type."
     }
   ]
 }
