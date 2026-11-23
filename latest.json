@@ -1,21 +1,37 @@
 {
   "app": "com.blutrixx.smsmessengerapp",
-  "versionCode": 47,
-  "versionName": "0.3.2",
+  "versionCode": 54,
+  "versionName": "0.3.3",
   "minimumCode": 1,
-  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.3.2/sms-messenger-0.3.2.apk",
-  "sha256": "075baaa2ee7cf4bfb48267c1bbe942f648d68cb5186290f55a4424125e44f486",
-  "size": 37638081,
-  "date": "2026-11-19",
-  "notes": "Notification taps open the right conversation, and search finds names and numbers.",
+  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.3.3/sms-messenger-0.3.3.apk",
+  "sha256": "300f8a94bedef5776f19ad7b1e25813026691ec85d8fe78b680bd093019cb77c",
+  "size": 36010689,
+  "date": "2026-11-23",
+  "notes": "Tap a text for its options, forward texts, and open a contact from their picture.",
   "changes": [
     {
-      "type": "FIXED",
-      "text": "Tapping a message notification opens that conversation, also after the app was closed."
+      "type": "NEW",
+      "text": "Tap a text to copy, forward, send as new, select, see details, hide or delete it."
     },
     {
       "type": "NEW",
-      "text": "Search finds conversations by contact name or number as you type."
+      "text": "Forward one text, or several selected texts, to anyone."
+    },
+    {
+      "type": "NEW",
+      "text": "Tap a picture in the inbox or a conversation to open that person in your contacts, or to add a number that is not saved."
+    },
+    {
+      "type": "FIXED",
+      "text": "Words from a send-SMS link are kept when you already have a conversation with that person."
+    },
+    {
+      "type": "IMPROVED",
+      "text": "The app is smaller and starts a little faster after an update."
+    },
+    {
+      "type": "IMPROVED",
+      "text": "The app log records more about errors, to help find problems."
     }
   ]
 }
