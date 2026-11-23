@@ -1,25 +1,21 @@
 {
   "app": "com.blutrixx.smsmessengerapp",
-  "versionCode": 56,
-  "versionName": "0.3.4",
+  "versionCode": 58,
+  "versionName": "0.3.5",
   "minimumCode": 1,
-  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.3.4/sms-messenger-0.3.4.apk",
-  "sha256": "7c868eac7adda42b8964e7c23a10299c69a10502c0651ceea299a6475ea273c9",
-  "size": 36011173,
+  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.3.5/sms-messenger-0.3.5.apk",
+  "sha256": "7e74c61692321385a5668255428b0eb0508fb6a51ce0038db99620567c85f0cc",
+  "size": 36011225,
   "date": "2026-11-23",
-  "notes": "The inbox opens at once.",
+  "notes": "Back always brings you to the inbox before you leave the app.",
   "changes": [
     {
-      "type": "IMPROVED",
-      "text": "The inbox shows your conversations as soon as the app opens, then brings them up to date."
+      "type": "FIXED",
+      "text": "Back on Spam, Archive, Scheduled and Settings goes to the inbox instead of offering to leave the app."
     },
     {
       "type": "IMPROVED",
-      "text": "Going back to the inbox from a conversation no longer shows a loading screen."
-    },
-    {
-      "type": "IMPROVED",
-      "text": "The app starts its other work after the inbox is on screen, so it is ready sooner."
+      "text": "Wherever the app was opened, the inbox is the last screen before you leave."
     }
   ]
 }
