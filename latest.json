@@ -1,21 +1,17 @@
 {
   "app": "com.blutrixx.smsmessengerapp",
-  "versionCode": 58,
-  "versionName": "0.3.5",
+  "versionCode": 60,
+  "versionName": "0.3.6",
   "minimumCode": 1,
-  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.3.5/sms-messenger-0.3.5.apk",
-  "sha256": "7e74c61692321385a5668255428b0eb0508fb6a51ce0038db99620567c85f0cc",
-  "size": 36011225,
+  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.3.6/sms-messenger-0.3.6.apk",
+  "sha256": "aa0786a4652019fd36d73ebc5134d25a11269f78e681f2e3b735012e89c066ee",
+  "size": 36011329,
   "date": "2026-11-23",
-  "notes": "Back always brings you to the inbox before you leave the app.",
+  "notes": "A conversation keeps its newest text in view when the keyboard opens",
   "changes": [
     {
-      "type": "FIXED",
-      "text": "Back on Spam, Archive, Scheduled and Settings goes to the inbox instead of offering to leave the app."
-    },
-    {
       "type": "IMPROVED",
-      "text": "Wherever the app was opened, the inbox is the last screen before you leave."
+      "text": "When the keyboard opens or closes, or your message grows, the newest text stays right above where you type, and a text you scrolled up to read stays where it was"
     }
   ]
 }
