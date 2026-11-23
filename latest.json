@@ -1,37 +1,25 @@
 {
   "app": "com.blutrixx.smsmessengerapp",
-  "versionCode": 54,
-  "versionName": "0.3.3",
+  "versionCode": 56,
+  "versionName": "0.3.4",
   "minimumCode": 1,
-  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.3.3/sms-messenger-0.3.3.apk",
-  "sha256": "300f8a94bedef5776f19ad7b1e25813026691ec85d8fe78b680bd093019cb77c",
-  "size": 36010689,
+  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.3.4/sms-messenger-0.3.4.apk",
+  "sha256": "7c868eac7adda42b8964e7c23a10299c69a10502c0651ceea299a6475ea273c9",
+  "size": 36011173,
   "date": "2026-11-23",
-  "notes": "Tap a text for its options, forward texts, and open a contact from their picture.",
+  "notes": "The inbox opens at once.",
   "changes": [
     {
-      "type": "NEW",
-      "text": "Tap a text to copy, forward, send as new, select, see details, hide or delete it."
-    },
-    {
-      "type": "NEW",
-      "text": "Forward one text, or several selected texts, to anyone."
-    },
-    {
-      "type": "NEW",
-      "text": "Tap a picture in the inbox or a conversation to open that person in your contacts, or to add a number that is not saved."
-    },
-    {
-      "type": "FIXED",
-      "text": "Words from a send-SMS link are kept when you already have a conversation with that person."
+      "type": "IMPROVED",
+      "text": "The inbox shows your conversations as soon as the app opens, then brings them up to date."
     },
     {
       "type": "IMPROVED",
-      "text": "The app is smaller and starts a little faster after an update."
+      "text": "Going back to the inbox from a conversation no longer shows a loading screen."
     },
     {
       "type": "IMPROVED",
-      "text": "The app log records more about errors, to help find problems."
+      "text": "The app starts its other work after the inbox is on screen, so it is ready sooner."
     }
   ]
 }
