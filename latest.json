@@ -1,17 +1,41 @@
 {
   "app": "com.blutrixx.smsmessengerapp",
-  "versionCode": 60,
-  "versionName": "0.3.6",
+  "versionCode": 69,
+  "versionName": "0.3.7",
   "minimumCode": 1,
-  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.3.6/sms-messenger-0.3.6.apk",
-  "sha256": "aa0786a4652019fd36d73ebc5134d25a11269f78e681f2e3b735012e89c066ee",
-  "size": 36011329,
-  "date": "2026-11-23",
-  "notes": "A conversation keeps its newest text in view when the keyboard opens",
+  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.3.7/sms-messenger-0.3.7.apk",
+  "sha256": "4cc3acf3aeacf81ea46983ba90c83a6b2269762e8f61ddc25efef93f90542f2b",
+  "size": 36202116,
+  "date": "2026-11-25",
+  "notes": "Scheduled texts, Undo after Send, templates, and tap numbers, links and codes in your texts",
   "changes": [
     {
+      "type": "NEW",
+      "text": "Send a text later: long-press Send, or tap the clock, and choose a time. It goes even with the app closed or after a restart"
+    },
+    {
+      "type": "NEW",
+      "text": "Undo after Send: a sent text waits 5 seconds so you can take it back (Settings \u203a Undo send)"
+    },
+    {
+      "type": "NEW",
+      "text": "Templates: save replies in Settings \u203a Templates and put them in a text with the templates button or by typing /shortcut"
+    },
+    {
+      "type": "NEW",
+      "text": "Numbers, links, emails and one-time codes in texts can be tapped: call, open, copy; a code copies at once"
+    },
+    {
+      "type": "NEW",
+      "text": "Copy code on the notification of a text with a one-time code"
+    },
+    {
       "type": "IMPROVED",
-      "text": "When the keyboard opens or closes, or your message grows, the newest text stays right above where you type, and a text you scrolled up to read stays where it was"
+      "text": "A new icon, and an animated start"
+    },
+    {
+      "type": "FIXED",
+      "text": "A conversation could not be left (Back did nothing) after the phone's connection came back"
     }
   ]
 }
