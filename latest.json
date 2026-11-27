@@ -1,41 +1,17 @@
 {
   "app": "com.blutrixx.smsmessengerapp",
-  "versionCode": 69,
-  "versionName": "0.3.7",
+  "versionCode": 71,
+  "versionName": "0.3.8",
   "minimumCode": 1,
-  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.3.7/sms-messenger-0.3.7.apk",
-  "sha256": "4cc3acf3aeacf81ea46983ba90c83a6b2269762e8f61ddc25efef93f90542f2b",
-  "size": 36202116,
-  "date": "2026-11-25",
-  "notes": "Scheduled texts, Undo after Send, templates, and tap numbers, links and codes in your texts",
+  "apk": "https://github.com/joelnjoshkibona/sms-messenger-download/releases/download/v0.3.8/sms-messenger-0.3.8.apk",
+  "sha256": "dbe188f205abaac88554b3422773874ff0af1259d5429d4efb400676fc4a2bea",
+  "size": 36202604,
+  "date": "2026-11-28",
+  "notes": "Going back from a conversation keeps your place in the list",
   "changes": [
     {
-      "type": "NEW",
-      "text": "Send a text later: long-press Send, or tap the clock, and choose a time. It goes even with the app closed or after a restart"
-    },
-    {
-      "type": "NEW",
-      "text": "Undo after Send: a sent text waits 5 seconds so you can take it back (Settings \u203a Undo send)"
-    },
-    {
-      "type": "NEW",
-      "text": "Templates: save replies in Settings \u203a Templates and put them in a text with the templates button or by typing /shortcut"
-    },
-    {
-      "type": "NEW",
-      "text": "Numbers, links, emails and one-time codes in texts can be tapped: call, open, copy; a code copies at once"
-    },
-    {
-      "type": "NEW",
-      "text": "Copy code on the notification of a text with a one-time code"
-    },
-    {
-      "type": "IMPROVED",
-      "text": "A new icon, and an animated start"
-    },
-    {
       "type": "FIXED",
-      "text": "A conversation could not be left (Back did nothing) after the phone's connection came back"
+      "text": "Going back from a conversation now returns to the same place in the list, not the top"
     }
   ]
 }
